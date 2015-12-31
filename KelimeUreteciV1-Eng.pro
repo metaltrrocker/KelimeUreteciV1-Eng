@@ -16,16 +16,19 @@ SOURCES += main.cpp\
         mainwindow.cpp
 
 HEADERS  += mainwindow.h \
-    degisken.h
+    degisken.h \
 
 FORMS    += mainwindow.ui
 
 DISTFILES += \
     Splashlogo.png \
     ReadMe \
-    Splashlogo
+    Splashlogo \
+    winikon.rc \
+    kelimeureteci.rc \
+    wordlystgenyrator.ico
 
 RESOURCES += \
     ikon.qrc \
     arkaplan.qrc
-
+RC_FILE = winikon.rc
